@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-ei8a0yfc%nvhm60=6gio0dj3j)x4a*l(f5@$3ds30q+6l(_!rr
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -58,11 +58,22 @@ ROOT_URLCONF = 'backend.urls'
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:3000',
     "http://127.0.0.1:8000",
+    "http://ec2-3-134-112-63.us-east-2.compute.amazonaws.com:3000",
     ]
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://127.0.0.1:8000",
+    "http://ec2-3-134-112-63.us-east-2.compute.amazonaws.com:3000",
+]
+
+CORS_ALLOW_METHODS = [
+    'DELETE',
+    'GET',
+    'OPTIONS',
+    'PATCH',
+    'POST',
+    'PUT',
 ]
 
 TEMPLATES = [
