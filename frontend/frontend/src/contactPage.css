@@ -1,0 +1,284 @@
+a[href^="/"] {
+	color: white;
+  }
+
+  a[href^="https"] {
+	color: rgb(88, 255, 159);;
+  }
+
+a {
+    color: white;
+    cursor: pointer;
+	text-decoration: none;
+}
+
+#contactBannerHolder{
+    background-color: #161819;
+    position: relative;
+    /* opacity: 0%; */
+    z-index: 4;
+    width: 90%;
+    margin: auto;
+    top: 4rem;
+    height: 20rem;
+}
+
+#contactContents{
+    display: inline-flex;
+}
+
+#contactTitleContact{
+    border-bottom-width: .1rem;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    width: 5.5rem;
+    color: white;
+    font: 800 40px Arial;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: .6px;
+    font-family: "Poppins", Sans-serif;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 800;
+    height: 74px;
+    line-height: 74px;
+    margin-top: 2rem;
+    -webkit-text-stroke-width: 1px;
+    margin-right: 180%;
+    margin-top: 7rem;
+    margin-left: 2rem;
+    padding-bottom: 6rem;
+    /* width: 60%; */
+    white-space: nowrap;
+}
+
+#teamHolder{
+    margin-top: 10rem;
+    position: relative;
+}
+
+.leftPhotoCard{
+    aspect-ratio: auto 400 / 400;
+    border-bottom-color: rgb(88, 255, 159);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(88, 255, 159);
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-right-color: rgb(88, 255, 159);
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-top-color: rgb(88, 255, 159);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-top-style: solid;
+    border-top-width: 2px;
+    box-shadow: rgba(88, 255, 159, 0.53) 0px 0px 20px 0px;
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    display: inline-block;
+    font-family: -apple-system, "system-ui", "Segoe: UI", Roboto, "Helvetica: Neue", Arial, "Noto: Sans", sans-serif, "Apple: Color: Emoji", "Segoe: UI: Emoji", "Segoe: UI: Symbol", "Noto: Color: Emoji";
+    font-size: 16px;
+    font-weight: 400;
+    height: 204px;
+    line-height: 24px;
+    max-width: 100%;
+    overflow-clip-margin: content-box;
+    overflow-x: clip;
+    overflow-y: clip;
+    text-align: left;
+    text-size-adjust: 100%;
+    vertical-align: middle;
+    width: 204px;
+    -webkit-font-smoothing: antialiased;
+    
+}
+
+.actualPhoto{
+    width: 204px;
+}
+
+.fullCard{
+    display: inline-flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3rem;
+    width: 40%;
+}
+
+.personName{
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: .2rem;
+    width: 30%;
+    white-space: nowrap;
+    padding-bottom: 1rem;
+}
+
+.rightCard{
+    padding-left: 2rem;
+    padding-top: 1rem;
+    animation-duration: 1.25s;
+    animation-name: "fadeInLeft";
+}
+@keyframes fadeInLeft {
+    0% {
+      left: 0;
+    }
+    50% { 
+      left: calc(100% - 100px); 
+     }
+    100% {
+      left: 0;     
+    }
+  }
+
+.persontitleOne{
+    text-align: left;
+    color: white;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 1rem;
+}
+
+.persontitleTwo{
+    text-align: left;
+    color: white;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 2rem;
+}
+
+.persontitleFormer{
+    box-sizing: border-box;
+    color: rgb(65, 215, 255);
+    display: block;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    height: 14px;
+    line-height: 14px;
+}
+
+.linkedinLogoHolder{
+    background-color: rgb(11, 14, 19);
+    border-bottom-color: rgb(88, 255, 159);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(88, 255, 159);
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-right-color: rgb(88, 255, 159);
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-top-color: rgb(88, 255, 159);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-top-style: solid;
+    border-top-width: 2px;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: rgb(88, 255, 159);
+    cursor: pointer;
+    display: inline-block;
+    fill: rgb(88, 255, 159);
+    font-family: -apple-system, "system-ui", "Segoe: UI", Roboto, "Helvetica: Neue", Arial, "Noto: Sans", sans-serif, "Apple: Color: Emoji", "Segoe: UI: Emoji", "Segoe: UI: Symbol", "Noto: Color: Emoji";
+    font-size: 27px;
+    font-weight: 400;
+    height: 58px;
+    line-height: 27px;
+    padding-bottom: 13.5px;
+    padding-left: 13.5px;
+    padding-right: 13.5px;
+    padding-top: 13.5px;
+    text-align: center;
+    text-decoration-color: rgb(88, 255, 159);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    text-size-adjust: 100%;
+    transition-behavior: normal;
+    transition-delay: 0s;
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: ease;
+    width: 58px;
+    -webkit-font-smoothing: antialiased;
+    margin-top: -2rem;
+    margin-left: 37%;
+}
+
+.linkedinLogoHolder:hover{
+    background-color: rgb(88, 255, 159);
+    border-bottom-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(255, 255, 255);
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-right-color: rgb(255, 255, 255);
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-top-color: rgb(255, 255, 255);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-top-style: solid;
+    border-top-width: 2px;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: inline-block;
+    fill: rgb(255, 255, 255);
+    font-family: -apple-system, "system-ui", "Segoe: UI", Roboto, "Helvetica: Neue", Arial, "Noto: Sans", sans-serif, "Apple: Color: Emoji", "Segoe: UI: Emoji", "Segoe: UI: Symbol", "Noto: Color: Emoji";
+    font-size: 27px;
+    font-weight: 400;
+    height: 58px;
+    line-height: 27px;
+    padding-bottom: 13.5px;
+    padding-left: 13.5px;
+    padding-right: 13.5px;
+    padding-top: 13.5px;
+    text-align: center;
+    text-decoration-color: rgb(255, 255, 255);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    text-size-adjust: 100%;
+    transition-behavior: normal;
+    transition-delay: 0s;
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: ease;
+    width: 58px;
+    -webkit-font-smoothing: antialiased;
+}
